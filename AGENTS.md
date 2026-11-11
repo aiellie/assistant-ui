@@ -61,6 +61,10 @@ Composable runtime and UI primitives for AI chat in React, Vue, React Native, an
 - On `gitbutler/workspace`, use GitButler: never create branches, stage, commit, or rewrite history with Git unless asked.
 - Assume other agents edit alongside you: check the worktree state first, never overwrite changes you did not make, and keep yours scoped.
 
+## Remotes
+
+- Publish with `git add .`, `git commit -m`, and `git push origin aiellie` to aiellie/assistant-ui only, because assistant-ui/assistant-ui must not receive these commits.
+
 ## Where things live
 
 - `packages/AGENTS.md` carries the build, dependency, and adapter rules for package code.
